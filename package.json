@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/styel07/uc-webdev-lecture#readme",
   "dependencies": {
-    "angular": "^1.5.8"
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
   }
 }

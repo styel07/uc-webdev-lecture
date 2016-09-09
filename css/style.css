@@ -6,10 +6,6 @@ li {
   list-style: none;
 }
 
-.section {
-  /*border-top: 1px solid #333;*/
-}
-
 .navbar-default {
   background-color: #2f8a53;
 }
@@ -92,10 +88,10 @@ ul#port-resume li{
 
 /*Discussion Module*/
 #careerAdvice {
-  background-color: #5bc0de;
+  background-color: #E6DF73;
 }
 
 /*References Module*/
 #references {
-  background-color: #E6DF73;
+  background-color: #5bc0de;
 }

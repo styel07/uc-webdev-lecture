@@ -6,22 +6,22 @@ app.component('main', {
   },
   template: `
     <div>
-      <div class="row section">
+      <div class="row">
         <discussion></discussion>
       </div>
-      <div class="row section">
+      <div class="row">
         <career-paths></career-paths>
       </div>
-      <div class="row section">
+      <div class="row">
         <checklist></checklist>
       </div>
-      <div class="row section">
+      <div class="row">
         <dev-tools></dev-tools>
       </div>
-      <div class="row section">
-        <career-advice></career-advice>
+      <div class="row">
+        <standards></standards>
       </div>
-      <div class="row section">
+      <div class="row">
         <references></references>
       </div>
     </div>
@@ -67,7 +67,7 @@ app.component('headerComponent', {
             <li><a ng-click="$ctrl.goTo(1)">Career Paths</a></li>
             <li><a ng-click="$ctrl.goTo(2)">Check List</a></li>
             <li><a ng-click="$ctrl.goTo(3)">Developers Tools</a></li>
-            <li><a ng-click="$ctrl.goTo(4)">Career Advice</a></li>
+            <li><a ng-click="$ctrl.goTo(4)">The Bar</a></li>
             <li><a ng-click="$ctrl.goTo(5)">References</a></li>
           </ul>
         </div>
@@ -258,15 +258,35 @@ app.component('devTools', {
   `
 });
 
-app.component('careerAdvice', {
+app.component('standards', {
   controller: function() {
-      this.greet = 'Career Advice';
+      this.greet = 'Where is the Bar?';
   },
   template: `
     <div class="jumbotron" id="careerAdvice">
       <div class="container">
         <h1>{{ $ctrl.greet }}</h1>
-          Where is the Bar?
+
+          Understand field you want to go into
+          Pick a Languages suitable to that field
+
+          Learn how to do this in the Language
+          - unit testing
+          API / RESTful Services
+          Security
+          Implement Authorization (login logout)
+          Web socket
+          ORM/Data Structure
+
+
+          Learn Databases: MySQL, Postgres
+          Relational
+          Redis / Session / caching
+          Document or NoSQL: MongoDB
+          Search Engine
+
+
+
           Latest Trends and Technologies
           Cool technologies to look into
           angular https://angularjs.org/

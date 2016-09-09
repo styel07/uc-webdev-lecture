@@ -7,9 +7,11 @@ li {
 }
 
 .section {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  border-top: 1px solid #333;
+  /*border-top: 1px solid #333;*/
+}
+
+.navbar-default {
+  background-color: #2f8a53;
 }
 
 .navbar-header {
@@ -25,12 +27,34 @@ h1 {
      1px 1px 0 #000;
 }
 
+/*Navbar Styles*/
+
 ul#main-nav {
   bottom: 0px;
 }
 
-ul#main-nav li{
+ul#main-nav li {
   display: inline;
 }
 
-.navbar-nav>li{ cursor: pointer; }
+.navbar-brand {
+  font-size: 2em;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-nav>li:hover {
+
+}
+
+.navbar-nav>li {
+  cursor: pointer;
+}
+
+/*Jumbotron Styles*/
+.jumbotron {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

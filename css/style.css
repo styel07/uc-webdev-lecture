@@ -27,6 +27,10 @@ h1 {
      1px 1px 0 #000;
 }
 
+/*Universal Colors*/
+.white {
+  color: #FFF;
+}
 /*Navbar Styles*/
 
 ul#main-nav {
@@ -57,4 +61,41 @@ ul#main-nav li {
 .jumbotron {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+/*Individual module styles*/
+/*Discussion Module*/
+#discussion {
+  background-color: #f9f9f9;
+}
+
+/*Career Path Module*/
+#careerPath {
+  background-color: #428bca;
+}
+
+/*CheckList Module*/
+#checklist {
+  background-color: #5cb85c;
+}
+
+ul#port-resume li{
+  font-size: 2em;
+  display: inline;
+  padding-right: 20px;
+  color: #f9f9f9;
+}
+/*Discussion Module*/
+#devTools {
+  background-color: #f9f9f9;
+}
+
+/*Discussion Module*/
+#careerAdvice {
+  background-color: #5bc0de;
+}
+
+/*References Module*/
+#references {
+  background-color: #E6DF73;
 }

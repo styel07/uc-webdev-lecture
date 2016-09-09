@@ -158,6 +158,8 @@ app.component('careerAdvice', {
           Where is the Bar?
           Latest Trends and Technologies
           Cool technologies to look into
+          angular https://angularjs.org/
+          react https://facebook.github.io/react/
       </div>
     </div>
   `

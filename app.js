@@ -22,6 +22,9 @@ app.component('main', {
         <standards></standards>
       </div>
       <div class="row">
+        <experience></experience>
+      </div>
+      <div class="row">
         <references></references>
       </div>
     </div>
@@ -295,6 +298,21 @@ app.component('standards', {
     </div>
   `
 });
+
+app.component('experience', {
+  controller: function() {
+      this.greet = 'My Post Grad Experience';
+  },
+  template: `
+    <div class="jumbotron" id="me">
+      <div class="container">
+        <h1>{{ $ctrl.greet }}</h1>
+        <h2>#coffeeAdventures</h2>
+      </div>
+    </div>
+  `
+});
+
 
 app.component('references', {
   controller: function() {
